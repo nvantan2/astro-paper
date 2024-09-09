@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Sat Naing",
   profile: "https://satnaing.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  title: "Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -28,22 +28,22 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/nvantan2",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
   {
     name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://fb.com/nvantan2",
     linkTitle: `${SITE.title} on Facebook`,
     active: true,
   },
-  {
-    name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
-    active: true,
-  },
+  // {
+  //   name: "Instagram",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on Instagram`,
+  //   active: true,
+  // },
   {
     name: "LinkedIn",
     href: "https://github.com/satnaing/astro-paper",
@@ -52,7 +52,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:tannguyen12.07.sk@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: false,
   },
